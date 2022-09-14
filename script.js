@@ -31,7 +31,7 @@ function quantiAnniHai(annoCorrente,AnnoDiNascita ) {
     let età = annoCorrente - AnnoDiNascita;
     return età;
 }
-alert(età = 2023 - 1996);
+alert(quantiAnniHai(2022,1996));
 
 
 
