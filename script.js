@@ -27,11 +27,14 @@ function somma(){
 }
 console.log(somma())
 
-function quantiAnniHai(annoCorrente,AnnoDiNascita ) {
-    let età = annoCorrente - AnnoDiNascita;
+
+
+function quantiAnniHai(annoCorrente,AnnoDiNascita,anni ) {
+    let età = annoCorrente - AnnoDiNascita + "anni";
     return età;
 }
-alert(quantiAnniHai(2022,1996));
+alert(quantiAnniHai(2022,1996,"anni"));
+
 
 
 
